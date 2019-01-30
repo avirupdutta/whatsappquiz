@@ -1,0 +1,18 @@
+.content{
+    width: 100vw;
+    height: 100vh;
+    background: url('https://i.pinimg.com/originals/3c/28/fd/3c28fdf105981b8abe817f0b1ecc24cf.jpg') no-repeat;
+    background-size: 150%;
+    background-position: center;
+}
+@media (max-width: 356px){
+    .content{ background-size: 180%; }
+}
+.quiz{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+}
+#ques{
+    padding-top: 50% !important;
+}
